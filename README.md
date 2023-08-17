@@ -3,3 +3,5 @@
 • Led backend development using Spring Boot (Maven, CRUDL Operations), Rest API’s, Postman, Hibernate, MySQL, Swagger for documentation and Rest Assured for System Testing. Implanted CI/CD pipelines to auto deploy code and used WebSocket technology for real-time messaging and swiping for Managers to like or skip candidates.
 
 • Worked on the same project using gitlab as a group , transferring final progress made to github.
+
+• More documentation is also available in the Documents subfolder on git which includes BlockDiagram of the App, ScreenSketches and others 
