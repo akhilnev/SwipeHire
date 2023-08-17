@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:orientation="vertical">
+
+        <Spinner
+            android:id="@+id/spMethod"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_marginRight="10dp"
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dropdown"/>
+
+        <EditText
+            android:id="@+id/etUrl"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:background="#e5ebeb"
+            android:layout_marginRight="5dp"
+            android:text=" Enter URL Here" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Request Body: "
+            android:textColor="#000000"/>
+
+        <EditText
+            android:id="@+id/etRequest"
+            android:layout_width="380sp"
+            android:layout_height="200sp"
+            android:background="#e5ebeb" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Response Body: "
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/tvResponse"
+            android:layout_width="380sp"
+            android:layout_height="200sp"
+            android:background="#e5ebeb" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/sendBtn"
+            android:layout_marginTop="10dp"
+            android:layout_width="180sp"
+            android:layout_height="wrap_content"
+            android:text="Send" />
+
+        <Button
+            android:id="@+id/imgBtn"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="180sp"
+            android:layout_height="wrap_content"
+            android:text="IMAGE" />
+    </LinearLayout>
+
+
+</LinearLayout>

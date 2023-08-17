@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_companies"
+        android:name="com.example.user_manager_v1.ui.companies.CompaniesFragment"
+        android:label="@string/menu_companies"
+        tools:layout="@layout/fragment_companies" />
+<!--    <fragment-->
+<!--        android:id="@+id/nav_skillassessmentpage"-->
+<!--        android:name="com.example.user_manager_v1.ui.skillassessment.SkillAssessment"-->
+<!--        android:label="@string/menu_skillassessment"-->
+<!--        tools:layout="@layout/fragment_skills" />-->
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.user_manager_v1.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.user_manager_v1.ui.gallery.GalleryFragment"
+        android:label="@string/menu_exam"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.user_manager_v1.ui.test.TestFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_skills"-->
+<!--        android:name="com.example.user_manager_v1.ui.slideshow.TestFragment"-->
+<!--        android:label="@string/menu_skills"-->
+<!--        tools:layout="@layout/fragment_skill_assessment" />-->
+
+
+
+</navigation>

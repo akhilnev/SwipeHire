@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/royal_purple"
+    tools:context=".CompanyData">
+
+<!--    <TextView-->
+<!--        android:id="@+id/company_data"-->
+<!--        android:layout_width="354dp"-->
+<!--        android:layout_height="87dp"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginStart="36dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:fontFamily="@font/poppinsbold"-->
+<!--        android:gravity="center"-->
+<!--        android:textSize="20sp"-->
+<!--        tools:layout_editor_absoluteX="0dp" />-->
+
+    <TextView
+        android:id="@+id/company_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginBottom="75dp"
+        android:text="As the hiring manager of this company you can add jobs for candidates to apply. You will have to specify the job type, location and the salary. Click the add jobs button below to continue."
+        android:textColor="@color/white"
+        android:textSize="23sp"
+        android:padding="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/button23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="292dp"
+        android:backgroundTint="@color/tropical_blue"
+        android:text="Add Job +" />
+
+</RelativeLayout>

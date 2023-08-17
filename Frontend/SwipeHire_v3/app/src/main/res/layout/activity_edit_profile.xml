@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/alt_img"
+    android:padding="1dp"
+    tools:context=".EditProfile">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="268dp"
+        android:layout_height="195dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/alt_act_img" />
+
+    <TextView
+        android:id="@+id/sgx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/poppinsbold"
+        android:gravity="center"
+        android:text="Edit Profile"
+
+        android:textSize="30sp"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/sgx"
+        tools:layout_editor_absoluteX="10dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/nam"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="55dp"
+                android:paddingLeft="10dp"
+                android:background="@drawable/input_text_field_styling"
+                android:fontFamily="@font/poppinsmedium"
+                android:hint="Full name"/>
+
+
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/eee"
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/input_text_field_styling"
+            android:fontFamily="@font/poppinsmedium"
+            android:layout_height="55dp"
+            android:hint="Email"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/pass"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="55dp"
+                android:paddingLeft="10dp"
+                android:inputType="textPassword"
+                android:background="@drawable/input_text_field_styling"
+                android:fontFamily="@font/poppinsmedium"
+                android:hint="Password"/>
+
+            <EditText
+                android:id="@+id/conf"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:paddingLeft="10dp"
+                android:inputType="textPassword"
+                android:background="@drawable/input_text_field_styling"
+                android:fontFamily="@font/poppinsmedium"
+                android:layout_height="55dp"
+                android:hint="Confirm Password"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:id="@+id/bioo"
+                android:padding="10dp"
+                android:background="@drawable/input_text_field_styling"
+                android:fontFamily="@font/poppinsmedium"
+                android:hint="Bio"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/inf"
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/input_text_field_styling"
+                android:fontFamily="@font/poppinsmedium"
+                android:layout_height="55dp"
+                android:hint="Information"/>
+
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/dark_royal_purple"
+            android:padding="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/main_btn_styling"
+            android:textFontWeight="700"
+            android:fontFamily="@font/poppinsbold"
+            android:text="Update" />
+
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/buttonn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/dark_royal_purple"
+        android:onClick="goToHome"
+        android:fontFamily="@font/poppinsbold"
+        android:padding="10dp"
+        android:text="Back To Home"
+        android:textColor="@color/tropical_blue"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.165" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

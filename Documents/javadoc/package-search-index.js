@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"com.example.user_manager_v1"},{"l":"com.example.user_manager_v1.helpers"},{"l":"com.example.user_manager_v1.ui.companies"},{"l":"com.example.user_manager_v1.ui.gallery"},{"l":"com.example.user_manager_v1.ui.home"},{"l":"com.example.user_manager_v1.ui.test"}]
