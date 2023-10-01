@@ -7,3 +7,5 @@
 • More documentation is also available in the Documents subfolder on git which includes BlockDiagram of the App, ScreenSketches and others 
 
 • To view the live working demo I have attached a link to the video and given access please go ahead and see it, Im sure you'll love it (Reccomend watching at 2* speed ): https://drive.google.com/file/d/1mCRe0wlWfRG3x_KBhAXMgico3djspkPX/view?usp=share_link
+
+• Commit history , CI/CD Deployment and other few factors are done on Gitlab
