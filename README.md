@@ -37,12 +37,5 @@ SwipeHire is an Android app designed to streamline the recruitment process by co
 
 To view a live working demo of SwipeHire, watch the [demo video](https://drive.google.com/file/d/1mCRe0wlWfRG3x_KBhAXMgico3djspkPX/view?usp=share_link). We recommend watching at 2x speed for an optimal experience.
 
-## Getting Started
-
-To get started with SwipeHire, follow these steps:
-
-1. Clone the repository.
-2. Refer to the Documents subfolder for additional documentation.
-3. Explore the codebase to understand the implementation details.
 
 
